@@ -1,6 +1,6 @@
 var randomNumber1 = Math.floor((Math.random() * 2 + 1));
 
-// Change dice images
+// Change coin images
 document.getElementsByClassName("img1")[0].setAttribute("src", "images/coin" + randomNumber1 + ".png");
 
 // Change title
